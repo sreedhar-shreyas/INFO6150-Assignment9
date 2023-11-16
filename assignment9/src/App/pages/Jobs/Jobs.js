@@ -1,4 +1,5 @@
 import Card from '../../components/Cards/cards'
+import Navbar from '../../components/Navbar/Navbar';
 
 
 function Jobs() {
@@ -8,10 +9,13 @@ function Jobs() {
   ];
 
   return (
+    <div>
+    <Navbar/>
     <div className='container'>
        {cardsData.map((card, index) => (
         <Card key={index} title={card.title} description={card.description} />
       ))}
+    </div>
     </div>
     
   )

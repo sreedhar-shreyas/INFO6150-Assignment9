@@ -1,5 +1,6 @@
 import Card from '../../components/Cards/cards'
 
+import Navbar from '../../components/Navbar/Navbar';
 
 function Contact() {
   const cardsData = [
@@ -8,10 +9,15 @@ function Contact() {
   ];
 
   return (
-    <div className='container'>Contact
+    <div>
+        <Navbar/>
+        <div className='container'>
+    
+      Contact
        {cardsData.map((card, index) => (
         <Card key={index} title={card.title} description={card.description} />
       ))}
+    </div>
     </div>
     
   )
