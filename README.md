@@ -4,30 +4,30 @@
 ### Project Features
 
 1. **Validation for Email and Full Name:**
-   - Implement validation for email and full name during user creation and update.
+   - Implemented validation for email and full name during user creation and update.
 
 2. **Password Security:**
-   - Use bcrypt to securely hash and store passwords and salt is displayed in backend.
+   - Used bcrypt to securely hash and store passwords and salt is displayed in backend.
 
 3. **Express API Endpoints:**
-   - Create Express API endpoints for user management and authentication.
-   - Utilize meaningful HTTP methods (POST, PUT, DELETE, GET).
+   - Created Express API endpoints for user management and authentication.
+   - Utilized HTTP methods (POST, PUT, DELETE, GET).
 
 4. **MongoDB Integration:**
-   - Connect to a MongoDB database for storing user information.
+   - Connected to a MongoDB database for storing user information.
 
 5. **Postman:**
-   - Demonstrate API functionality using Postman for testing and running the application.
+   - Demonstrated API functionality using Postman for testing and running the application.
 
 6. **JWT (JSON Web Token) for Authentication:**
-   - Include a basic JWT-based authentication system for user login.
+   - Included a basic JWT-based authentication system for user login.
 
 7. **Folder Organization:**
    - Organized project files into folders, such as routes, models, api etc.
 
 08. **Card Layout with Map:**
-    - Utilize a card layout for displaying information.
-    - Implement the card layout using the map function for dynamic rendering.
+    - Utilized a card layout for displaying information.
+    - Implemented the card layout using the map function for dynamic rendering.
     - Display relevant information, such as user details, using the card layout.
 
 09. **React Components:**
