@@ -8,6 +8,6 @@ const userSchema = new mongoose.Schema({
   });
   
   
-  const User = mongoose.model('asdir', userSchema);
+  const User = mongoose.model('asdirs', userSchema);
 
   module.exports = User;
