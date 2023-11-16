@@ -11,7 +11,6 @@ function Home() {
     <div>
     <Navbar/>
     <div className='container'>
-       <Navbar/>
        {cardsData.map((card, index) => (
         <Card key={index} title={card.title} description={card.description} />
       ))}

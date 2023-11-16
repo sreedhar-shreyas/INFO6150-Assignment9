@@ -120,63 +120,24 @@ router.delete('/delete', async (req, res) => {
   router.get("/",cors(),(req,res)=>{
 
   })
-  
-  
-//   router.post("/login", (req, res)=> {
-//     const { email, password} = req.body
-//     User.findOne({ email: email}, (err, user) => {
-//         if(user){
-//             if(password === user.password ) {
-//                 res.send({message: "Login Successfull", user: user})
-//             } else {
-//                 res.send({ message: "Password didn't match"})
-//             }
-//         } else {
-//             res.send({message: "User not registered"})
-//         }
-//     })
-// }) 
-// router.post("/login",  async (req, res) => {
-//   console.log(req.body)
-//   const { email, password } = req.body;
-//   try {
-//       const user = await User.findOne({ email });
-//       if (!user) {
-//           return res.error(401, 'Authentication failed');
-//       }
-
-//       const passwordMatch = await bcrypt.compare(password, user.password);
-//       if (!passwordMatch) {
-//           return res.error(401, 'Invalid password');
-//       }
-
-//       const token = jwt.sign({ email }, secretKey, { expiresIn: 86400 });
-//       res.success({ token }, 'Authentication successful');   
-//   } catch (error) {
-//       res.error(500, error.message);
-//   }
-// })
+    
 
 router.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    // Find the user by email
     const user = await User.findOne({ email });
 
-    // Check if the user exists
     if (!user) {
       return res.status(404).json({ success: false, message: 'User not found' });
     }
 
-    // Compare the entered password with the hashed password stored in the database
     const isPasswordValid = await bcrypt.compare(password, user.password);
 
     if (!isPasswordValid) {
       return res.status(401).json({ success: false, message: 'Invalid password' });
     }
 
-    // If the password is valid, create and send a JWT token
     const token = jwt.sign({ userId: user._id }, 'your-secret-key', { expiresIn: '1h' });
 
     res.status(200).json({ success: true, token });

@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# INFO6150 - ASSIGNMENT 9
+
+### Project Features
+
+1. **Validation for Email and Full Name:**
+   - Implement validation for email and full name during user creation and update.
+
+2. **Password Security:**
+   - Use bcrypt to securely hash and store passwords.
+
+3. **Express API Endpoints:**
+   - Create Express API endpoints for user management and authentication.
+   - Utilize meaningful HTTP methods (POST, PUT, DELETE, GET).
+
+4. **MongoDB Integration:**
+   - Connect to a MongoDB database for storing user information.
+
+5. **Error Handling:**
+   - Implement proper error handling, providing meaningful messages in case of invalid requests.
+
+6. **Postman Testing:**
+   - Demonstrate API functionality using Postman for testing.
+
+7. **JWT (JSON Web Token) for Authentication:**
+   - Include a basic JWT-based authentication system for user login.
+
+8. **Folder Organization:**
+   - Organize project files into meaningful folders, such as routes, models, etc.
+
+Feel free to customize this list based on the specific functionalities and features of your project.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
