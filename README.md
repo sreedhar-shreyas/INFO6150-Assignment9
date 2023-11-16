@@ -1,5 +1,5 @@
-# INFO6150-Assignment9
-# INFO6150 - ASSIGNMENT 9
+
+# INFO6150 - ASSIGNMENT 9 - Shreyas S Sreedhar 
 
 ### Project Features
 
@@ -7,7 +7,7 @@
    - Implement validation for email and full name during user creation and update.
 
 2. **Password Security:**
-   - Use bcrypt to securely hash and store passwords.
+   - Use bcrypt to securely hash and store passwords and salt is displayed in backend.
 
 3. **Express API Endpoints:**
    - Create Express API endpoints for user management and authentication.
@@ -16,19 +16,25 @@
 4. **MongoDB Integration:**
    - Connect to a MongoDB database for storing user information.
 
-5. **Error Handling:**
-   - Implement proper error handling, providing meaningful messages in case of invalid requests.
+5. **Postman:**
+   - Demonstrate API functionality using Postman for testing and running the application.
 
-6. **Postman Testing:**
-   - Demonstrate API functionality using Postman for testing.
-
-7. **JWT (JSON Web Token) for Authentication:**
+6. **JWT (JSON Web Token) for Authentication:**
    - Include a basic JWT-based authentication system for user login.
 
-8. **Folder Organization:**
-   - Organize project files into meaningful folders, such as routes, models, etc.
+7. **Folder Organization:**
+   - Organized project files into folders, such as routes, models, api etc.
 
-Feel free to customize this list based on the specific functionalities and features of your project.
+08. **Card Layout with Map:**
+    - Utilize a card layout for displaying information.
+    - Implement the card layout using the map function for dynamic rendering.
+    - Display relevant information, such as user details, using the card layout.
+
+09. **React Components:**
+    - Use React for building components and managing the application's UI.
+    - Leverage state and props to handle component-level data and communication.
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -45,57 +51,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
